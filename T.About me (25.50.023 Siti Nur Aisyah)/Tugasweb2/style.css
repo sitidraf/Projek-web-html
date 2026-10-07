@@ -1,0 +1,143 @@
+*{padding: 0; margin: 0; font-family: arial;}
+
+/* cover header */
+.header{
+    width: 100%;
+    background-image: url("Gambar/cover.jpg");
+    background-size: cover;
+    /* background-color: #c5a9dc; */
+}
+/* fungsi padding adalah memberikan spasi untuk tidak bersatu (padding adalah lapisan atau tambahan kosong)*/
+.container{
+    padding: 20px;
+    text-align: center;
+}
+/* untuk shadow */
+.container .teks{
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-style: italic;
+}
+/* ukuran logo */
+.container .logo img{
+    width: 200px;
+}
+
+/* bagian menu */
+.menu{
+    width: 100%;
+    /* (float ntuk memindahkan elemen) */
+    float: left;
+    background-color:#5f3d85;
+}
+/* cara memanggil kelas itu dimulai dari "." */
+.menuutama ul>li{
+    float: left;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* jarak spasi kata */
+    padding: 15px;
+    color: white;
+    
+}
+
+/* bagian animasi putih putih */
+.menuutama ul>li:hover{
+    background-color: #875ebd;
+    cursor: pointer;
+}
+
+/* bagian isi */
+.isi{
+    width: 100%;
+    float: center;
+}
+
+/* bagian kelas isi */
+.isinya .col3{
+    box-sizing: border-box;
+    margin: 0.6%;
+    width: 32%;
+    float: left;
+    background-color: white;
+    /* border radius untuk melengkungkan */
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black 
+}
+
+.gambar img{
+    width: 100%;
+    height: 30%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.judul{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #cba8f9;
+    padding: 10px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* fokus kepada bagian isi teks melengkung nya */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.tanggal{
+    color: white;
+    background-color: #66488d;
+    padding: 10px 0px 10px 10px;
+    text-align: center;
+}
+.isi about me{
+    padding: 10px;
+    text-align: justify;
+}
+
+/* tombol */
+
+.tombol{
+    width: 100%;
+    text-align: right;
+}
+/* a itu untuk link */
+
+.tombol a{
+    text-decoration: none;
+}
+
+.tombol .btn{
+    padding: 10px;
+    background-color: #533b71;
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+.tombol .btn:hover{
+    background-color: #bda5db;
+    cursor: pointer;
+}
+
+.Tag{
+    clear: both;
+    background-color: #533b71;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer{
+    box-sizing: border-box;
+    background-color: #875ebd;
+    text-align: center;
+    clear: both;
+    color: white;
+    padding: 10px;
+}
